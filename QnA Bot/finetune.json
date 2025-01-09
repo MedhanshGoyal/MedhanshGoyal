@@ -1,0 +1,55 @@
+{
+    "data": [
+      {
+        "context": "Customer ABC placed an order for Product X on 2023-07-05.",
+        "input": "What orders did customer ABC place recently?",
+        "output": {
+          "query_type": "orders",
+          "customer_name": "ABC",
+          "time_frame": "recent"
+        }
+      },
+      {
+        "context": "Customer XYZ purchased Product Y on 2023-07-10.",
+        "input": "What items did customer XYZ buy recently?",
+        "output": {
+          "query_type": "items",
+          "customer_name": "XYZ",
+          "time_frame": "recent"
+        }
+      },
+      {
+        "context": "Customer DEF has a pending order for Product Z.",
+        "input": "What is the status of customer DEF's order?",
+        "output": {
+          "query_type": "order_status",
+          "customer_name": "DEF",
+          "status": "pending"
+        }
+      },
+      {
+        "context": "Product A is currently out of stock.",
+        "input": "When will Product A be available?",
+        "output": {
+          "query_type": "product_availability",
+          "product_name": "A"
+        }
+      },
+      {
+        "context": "Create a personalized order for Dhanvaith Manikanta Distributors with INR 100000 budget.",
+        "input": "Create a personalized order for Dhanvaith Manikanta Distributors with INR 100000 budget.",
+        "output": {
+          "query_type": "personalized_order",
+          "party_name": "Dhanvaith Manikanta Distributors",
+          "budget": 100000,
+          "details": {
+            "customer_buying_pattern": "Use deep AI prediction models to analyze customer buying patterns.",
+            "promoted_stocks": "Include stocks promoted by the mapped salesman (Ordered by).",
+            "top_performing_products": "Include Underlinen Brand's top-performing products."
+          }
+        }
+      }
+
+    ]
+  }
+  
